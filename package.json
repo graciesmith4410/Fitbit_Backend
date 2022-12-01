@@ -1,0 +1,24 @@
+{
+    "name": "fitbit",
+    "version": "1.0",
+    "scripts": {
+        "start": "node main.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "express-form-data": "^2.0.19",
+        "fitbit-node": "^2.2.0",
+        "jade": "^1.11.0",
+        "mongoose": "^6.7.5",
+        "next": "^13.0.5",
+        "os": "^0.1.2",
+        "request": "^2.83.0",
+        "simple-oauth2": "^1.5.0"
+    },
+    "devDependencies": {
+        "express": "^4.16.2"
+    }
+}
